@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+
+<section class="py-2" bg-white>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <ul class="nav left-position">
+                    <li>
+                        <a href="tel:+8809612342486" class="nav-link text-info">
+                            <i class="fas fa-phone-alt mr-2"></i>  +8809612342486</a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@gmail.com" class="nav-link text-info">
+                            <i class="far fa-envelope mr-2"></i>  info@bitm.org.bd</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <ul class="nav float-right right-position">
+                    <li>
+                        <a href="#mymodal" data-toggle="modal" class="nav-link text-info">
+                            <i class="fas fa-user"></i>
+                            Sign in
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="py-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img/bitm-logo.png" alt="BITM LOGO"/>
+            </div>
+            <div class="col-md-6">
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <button type="button" class="navbar-toggler menu-position" data-toggle="collapse" data-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav">
+                            <li> <a href="" class="nav-link text-uppercase font-weight-bold">Home</a> </li>
+                            <li class="dropdown">
+                                <a href="" class="nav-link text-uppercase font-weight-bold dropdown-toggle" data-toggle="dropdown">All course</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">Training</a> </li>
+                                    <li><a href="" class="dropdown-item">Workshop</a> </li>
+                                </ul>
+                            </li>
+                            <li> <a href="" class="nav-link text-uppercase font-weight-bold">SEIP</a> </li>
+                            <li> <a href="" class="nav-link text-uppercase font-weight-bold">ASSIGNMENT</a> </li>
+                            <li> <a href="" class="nav-link text-uppercase font-weight-bold">ABOUT US</a> </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-3">
+                <img src="img/basis_logo.png" alt="BASIS LOGO"class="h-50 float-right"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/1634978613.jpg" alt="" class=""/>
+                    <div class="card-header">
+                    </div>
+                    <div class="card-body">
+                        <h5><b>Cisco Certified Network Associate (24th Batch)</b> </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/111.jpg" alt="" class=""/>
+                    <div class="card-header">
+                    </div>
+                    <div class="card-body">
+                        <h5><b>Microsoft Asp.net MVC Core With SQL Server 2017 </b></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/111.jpg" alt="" class=""/>
+                    <div class="card-header">
+
+                    </div>
+                    <div class="card-body">
+                        <h5><b>Online Course: AI & Deep Learning With Python</b> </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/1111.jpg" alt="" class=""/>
+                    <div class="card-header">
+                    </div>
+                    <div class="card-body">
+                        <h5><b>Online Course : Certificate Course on Android App Development with Java SE</b> </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <img src="img/SSLCommerz-supported-gateway-1024x175.png" alt="" class=""/>
+                    <div class="card-header">
+                        <a href="" class=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal fade" id="mymodal" data-backdrop="static" data-keyboard="false">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>Sign In</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="card-body border-0">
+                    <div>
+                        <a href=""><i class="fab fa-3x fa-facebook-square"></i> </a>
+                        <a href=""><i class="fab fa-3x fa-google-plus-square text-danger"></i> </a>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="bitm@bitm.com"/>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="Type Password"/>
+                    </div>
+                    <div class="form-group">
+                        <a href="" class="float-right text-success">Forgot Password ?</a>
+                    </div>
+                    <input type="Submit" class="btn btn-outline-success btn-block" value="Login"/>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+    </div>
+</div>
+</div>
+
+<footer class="container-fluid text-center">
+    <p>&copy;Anik Tonmoy</p>
+</footer>
+
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
